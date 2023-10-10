@@ -1,8 +1,8 @@
 <div class="form-container">
   <form>
-    <select name="income-expense" id="income-expense">
-      <option value="income">+</option>
-      <option value="expense">-</option>
+    <select [(ngModel)]="isIncome" name="income-expense" id="income-expense">
+      <option value="true">+</option>
+      <option value="false">-</option>
     </select>
 
     <input [(ngModel)]="reason" name="reason" type="text" class="reason-input" placeholder="Reason" />

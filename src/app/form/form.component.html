@@ -5,7 +5,8 @@
       <option value="expense">-</option>
     </select>
 
-    <input type="text" class="reason-input" placeholder="Reason" />
-    <input type="number" class="amount-input" placeholder="Amount"/>
+    <input [(ngModel)]="reason" name="reason" type="text" class="reason-input" placeholder="Reason" />
+    <input [(ngModel)]="amount" name="amount" type="number" class="amount-input" placeholder="Amount"/>
+    <button (click)="newMovement()">Submit</button>
   </form>
 </div>

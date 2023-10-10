@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FormComponent } from './form/form.component';
 import { IncomesComponent } from './incomes/incomes.component';
 import { ExpensesComponent } from './expenses/expenses.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,13 +15,10 @@ import { ExpensesComponent } from './expenses/expenses.component';
     HeaderComponent,
     FormComponent,
     IncomesComponent,
-    ExpensesComponent
+    ExpensesComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

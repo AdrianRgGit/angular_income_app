@@ -14,7 +14,11 @@ export class FormComponent {
   constructor(private movementService: MovementService) {}
 
   newMovement() {
+    if(!this.reason){
+      this.reason = "A default reason"
+    }
     let movement = new Movement(this.reason, this.amount);
     this.movementService.pushMovement(movement);
+    this.reason = ""
   }
 }

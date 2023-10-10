@@ -6,7 +6,6 @@ import { MovementService } from '../movements.service';
   selector: 'app-form',
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.sass'],
-  providers: [MovementService],
 })
 export class FormComponent {
   reason: string = '';

@@ -3,7 +3,7 @@
     <p>Budget</p>
     <h1>{{ total }}</h1>
   </div>
-  <div class="incomes-expenses-container">
+  <div *ngIf="incomes && expenses" class="incomes-expenses-container">
     <div class="incomes-container">
       <p>Incomes</p>
       <p>{{ totalIncome }}</p>

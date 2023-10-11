@@ -1,17 +1,17 @@
 .expenses-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 
-    width: 80%;
-    
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    color: rgb(209, 43, 90);
+  width: 80%;
+
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: rgb(209, 43, 90);
 
   // Glass
   background: rgb(255, 255, 255);
@@ -22,6 +22,6 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.expense-table{
-    margin-bottom: 30px;
+.expense-table {
+  margin-bottom: 30px;
 }

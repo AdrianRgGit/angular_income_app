@@ -1,35 +1,100 @@
 .form-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  height: 100px;
+
+  margin: auto;
+
+  // Glass
+  background: rgb(255, 255, 255);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .income-expense-container {
-  font-family: "Roboto", sans-serif;
+  height: 50px;
+  width: 50px;
+
   margin-right: 10px;
+
+  padding: 5px;
+
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 800;
   text-align: center;
-  height: 50px;
-  width: 50px;
+
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: rgb(188, 163, 127);
 }
 
 .reason-input {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
   width: 300px;
   height: 50px;
+
+  padding: 5px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: rgb(188, 163, 127);
 }
 
 .amount-input {
+  height: 50px;
+
+  margin-left: 10px;
+
+  padding: 5px;
+
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  margin-left: 10px;
-  height: 50px;
+
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: rgb(188, 163, 127);
 }
 
 .submit-form {
+  height: 50px;
+
+  margin-left: 20px;
+
+  padding: 1rem;
+
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  margin-left: 10px;
-  height: 50px;
+  color: rgb(188, 163, 127);
+
+  border: none;
+  background-color: #ebebeb;
+  border-radius: 1rem;
+
+  cursor: pointer;
+}
+
+.submit-form:active {
+  color: white;
+  box-shadow: 0 0.2rem #dfd9d9;
+  transform: translateY(0.2rem);
+}
+
+.submit-form:hover:not(:disabled) {
+  background: rgb(188, 163, 127);
+  color: white;
+  text-shadow: 0 0.1rem #bcb4b4;
+}
+
+.submit-form:disabled {
+  cursor: auto;
+  color: grey;
 }

@@ -1,12 +1,12 @@
 <div class="form-container">
   <form>
-    <select [(ngModel)]="isIncome" name="income-expense" id="income-expense">
+    <select [(ngModel)]="isIncome" name="income-expense" id="income-expense" class="income-expense-container">
       <option value="true">+</option>
       <option value="false">-</option>
     </select>
 
     <input [(ngModel)]="reason" name="reason" type="text" class="reason-input" placeholder="Reason" />
     <input [(ngModel)]="amount" name="amount" type="number" class="amount-input" placeholder="Amount"/>
-    <button (click)="newMovement()">Submit</button>
+    <button (click)="newMovement()" class="submit-form">Submit</button>
   </form>
 </div>

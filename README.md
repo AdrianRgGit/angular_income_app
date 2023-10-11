@@ -1,28 +1,57 @@
-# IncomeApp
+# Budget Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+Welcome to my humble Angular project. This project will help you manage your expenses, accounts, and payments. With this application, you can easily track your financial transactions (or other transactions...😏) and calculate them effortlessly!
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Expense and income registration.
+- Automatically calculates your bank balance.
+- Displays a history of all your financial transactions.
+- Provides a clear view of your financial situation.
 
-## Code scaffolding
+## Preview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
+1. Clone this repository to your local computer.
+2. Ensure you have [Node.js](https://nodejs.org/) installed.
+3. Execute the following command to install the dependencies:
 
-## Build
+```bash
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage
 
-## Running unit tests
+To start the application, use the following command:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+ng serve
+```
+or
 
-## Running end-to-end tests
+```bash
+ng serve -o
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Open your browser and go to http://localhost:4200/ (or the URL displayed in your terminal).
+2. Begin recording your expenses and income.
+3. The application will automatically calculate your balance and display a detailed transaction history.
 
-## Further help
+## Contribution
+If you wish to contribute to this project, please follow these steps:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# angular_income_app
+1. Fork the repository.
+2. Create a new branch for your feature: git checkout -b feature/new-feature.
+3. Make your changes and commit: git commit -m 'Add new feature'.
+4. Push your changes to the remote repository: git push origin feature/new-feature.
+5. Open a Pull Request on GitHub.
+
+## Contact
+
+If you have any questions or suggestions, don't hesitate to contact me:
+
+- Name: Adrián Ramírez
+- Email: adrianramirezgalera@gmail.com
+- GitHub: [AdrianRgGit](https://github.com/AdrianRgGit)
+
+Thank you for using my application! I hope it proves useful to you.

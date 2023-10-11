@@ -1,9 +1,13 @@
-<div class="expenses-container">
-  <h3>Expenses</h3>
+<div class="incomes-container">
+  <h3>Incomes</h3>
   <table border="1">
     <tr>
-      <td>Rents</td>
-      <td>-$1500.00</td>
+      <th>Reason</th>
+      <th>Amount</th>
+    </tr>
+    <tr *ngFor="let expense of expenses">
+      <td>{{ expense.reason }}</td>
+      <td>{{ expense.amount | currency:'USD' }}</td>
     </tr>
   </table>
 </div>

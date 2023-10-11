@@ -1,18 +1,29 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Movement } from '../movement.model';
 import { MovementService } from '../movements.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-incomes',
   templateUrl: './incomes.component.html',
   styleUrls: ['./incomes.component.sass'],
 })
-export class IncomesComponent implements OnInit {
+export class IncomesComponent implements OnInit, OnDestroy {
   incomes: Movement[] = [];
 
-  constructor(private movementService: MovementService) {}
+  private movementsSubscription!: Subscription;
 
-  ngOnInit(): void {
-    this.incomes = this.movementService.incomes;
+  constructor(private movementsService: MovementService) {}
+
+  ngOnInit() {
+    this.movementsSubscription = this.movementsService
+      .movementsChanged()
+      .subscribe(() => {
+        this.incomes = this.movementsService.incomes;
+      });
+  }
+
+  ngOnDestroy() {
+    this.movementsSubscription.unsubscribe();
   }
 }

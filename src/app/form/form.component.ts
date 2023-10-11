@@ -9,7 +9,7 @@ import { MovementService } from '../movements.service';
 })
 export class FormComponent {
   // FIXME: No me funciona como booleano, echarle un vistazo
-  isIncome: string = 'false';
+  isIncome: string = 'true';
   reason: string = '';
   amount: number = 0;
 

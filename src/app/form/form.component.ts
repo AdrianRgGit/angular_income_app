@@ -5,7 +5,7 @@ import { MovementService } from '../movements.service';
 @Component({
   selector: 'app-form',
   templateUrl: './form.component.html',
-  styleUrls: ['./form.component.sass'],
+  styleUrls: ['./form.component.scss'],
 })
 export class FormComponent {
   // FIXME: No me funciona como booleano, echarle un vistazo

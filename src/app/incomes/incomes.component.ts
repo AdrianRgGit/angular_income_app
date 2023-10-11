@@ -6,7 +6,7 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-incomes',
   templateUrl: './incomes.component.html',
-  styleUrls: ['./incomes.component.sass'],
+  styleUrls: ['./incomes.component.scss'],
 })
 export class IncomesComponent implements OnInit, OnDestroy {
   incomes: Movement[] = [];

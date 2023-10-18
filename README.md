@@ -47,7 +47,7 @@ If you wish to contribute to this project, please follow these steps:
 5. Open a Pull Request on GitHub.
 
 ## Preview
-![Preview](src\assets\Preview.png)
+![Preview](src\Preview.png)
 
 ## Contact
 

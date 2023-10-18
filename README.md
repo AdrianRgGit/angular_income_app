@@ -46,6 +46,9 @@ If you wish to contribute to this project, please follow these steps:
 4. Push your changes to the remote repository: git push origin feature/new-feature.
 5. Open a Pull Request on GitHub.
 
+## Preview
+![Preview](src\assets\Preview.png)
+
 ## Contact
 
 If you have any questions or suggestions, don't hesitate to contact me:

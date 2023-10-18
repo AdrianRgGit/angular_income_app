@@ -12,6 +12,7 @@ Welcome to my humble Angular project. This project will help you manage your exp
 ## Preview
 
 ## Installation
+
 1. Clone this repository to your local computer.
 2. Ensure you have [Node.js](https://nodejs.org/) installed.
 3. Execute the following command to install the dependencies:
@@ -27,6 +28,7 @@ To start the application, use the following command:
 ```bash
 ng serve
 ```
+
 or
 
 ```bash
@@ -38,6 +40,7 @@ ng serve -o
 3. The application will automatically calculate your balance and display a detailed transaction history.
 
 ## Contribution
+
 If you wish to contribute to this project, please follow these steps:
 
 1. Fork the repository.
@@ -47,7 +50,8 @@ If you wish to contribute to this project, please follow these steps:
 5. Open a Pull Request on GitHub.
 
 ## Preview
-![Preview](src\Preview.png)
+
+![Preview](./src/assets/Preview.png)
 
 ## Contact
 
